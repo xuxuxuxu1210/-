@@ -1,0 +1,558 @@
+
+.div1{
+    width:100%; min-width:1200px; overflow:hidden;
+}
+.div2 {
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.div2 i{
+    color: red;
+    font-weight: normal;
+}
+.div3 {
+    width: 392px;
+    height: 495px;
+    float: left;
+    position: relative;
+}
+
+.div3 .div4 {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    border: 1px solid #eaeaea;
+}
+
+.div3 .div4 a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.div3 .div4 img {
+    border: 0;
+    width: 390px;
+    height: 390px;
+}
+
+.div3 .div5 {
+    width: 100%;
+    height: 90px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.div3 .div5 .div6 {
+    width: 15px;
+    height: 100%;
+    background: url(../images/r_left.png) no-repeat left center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.div3 .div5 .div8 {
+    width: 15px;
+    height: 100%;
+    background: url(../images/r_right.png) no-repeat right center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.div3 .div5 .div7 {
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 90px;
+    overflow: hidden;
+}
+.div7 ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+.div7 li {
+    width: 90px;
+    float: left;
+    cursor: pointer;
+}
+
+.div7 li img {
+    padding: 2px;
+    margin: 1px;
+    border: 1px solid #eaeaea;
+    display: block;
+    width: 79px;
+    height: 79px;
+}
+
+.div7 li. img {
+    border: 3px solid #ff4e00;
+    padding: 1px;
+    margin: 0;
+}
+.div9 {
+    width: 520px;
+    height: 490px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin-left: 30px;
+}
+.div10 {
+    height: 50px;
+    line-height: 25px;
+    overflow: hidden;
+    color: #888888;
+    font-size: 14px;
+}
+.div10 p {
+    color: #3e3e3e;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.div11 {
+    height: 64px;
+    line-height: 32px;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.div11 b {
+    color: #ff3c3c;
+    font-size: 18px;
+}
+
+.div11 span {
+    font-size: 14px;
+}
+.div12 {
+    line-height: 40px;
+    overflow: hidden;
+    color: #888888;
+}
+
+.div12 ul li {
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    padding: 0 15px;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    position: relative;
+}
+
+.div12 ul li:hover {
+    height: 26px;
+    line-height: 26px;
+    padding: 0 14px;
+    overflow: hidden;
+    border: 2px solid #ff3c3c;
+}
+
+.div12 ul li .div13{
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    background: url(../images/ch.png) no-repeat center top;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.div12 ul li.checked {
+    height: 26px;
+    line-height: 26px;
+    padding: 0 14px;
+    overflow: hidden;
+    border: 2px solid #ff3c3c;
+}
+
+.div12 ul li.checked .div13 {
+    display: block;
+}
+
+.div12 ul li .div13 {
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    background: url(../images/ch.png) no-repeat center top;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+ .div14{
+    height: 60px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.div14 .div15{
+    width: 68px;
+    height: 27px;
+    line-height: 27px;
+    background: url(../images/sh.png) no-repeat 12px 5px;
+    text-indent: 32px;
+    float: left;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    position: relative;
+}
+ .div14 .div15 .div16 {
+    width: 176px;
+    height: 28px;
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+    position: absolute;
+    left: 0;
+    top: 27px;
+    display: none;
+}
+ .div14 .div15 .div16 a {
+    overflow: hidden;
+    text-indent: 0;
+    float: left;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.div14 .div15:hover {
+    border: 1px solid #eaeaea;
+}
+.div14 .div15:hover  .div16 {
+    display: block;
+}
+ .div14 .div17{
+    height: 27px;
+    line-height: 27px;
+    overflow: hidden;
+    background: url(../images/care.png) no-repeat left center;
+    float: left;
+    display: inline;
+    margin-left: 50px;
+    padding-left: 22px;
+}
+ .div18{
+    height: 45px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.div19{
+    width: 78px;
+    height: 43px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    border: 1px solid #cccccc;
+}
+.input_1 {
+    width: 56px;
+    height: 43px;
+    line-height: 43px \9;
+    background: none;
+    color: #555555;
+    font-size: 18px;
+    text-align: center;
+    float: left;
+    padding: 0;
+    border: 0;
+}
+.input_2 {
+    width: 21px;
+    height: 21px;
+    overflow: hidden;
+    background: url(../images/jia.gif) no-repeat center top;
+    float: right;
+    border: 0;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    cursor: pointer;
+}
+.input_3 {
+    width: 21px;
+    height: 21px;
+    overflow: hidden;
+    background: url(../images/jian.gif) no-repeat center top;
+    float: right;
+    border: 0;
+    border-left: 1px solid #cccccc;
+    cursor: pointer;
+}
+ .div20{
+    width: 188px;
+    height: 188px;
+    overflow: hidden;
+    float: right;
+    border: 1px solid #eaeaea;
+}
+ .div21{
+    width: 188px;
+    height: 132px;
+    overflow: hidden;
+    border-bottom: 1px solid #eaeaea;
+}
+.div22{
+    height: 55px;
+    line-height: 55px;
+    overflow: hidden;
+    background-color: #f6f6f6;
+    font-size: 16px;
+    text-align: center;
+}
+.nav1{
+    width: 209px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #eaeaea;
+}
+.nav2 {
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    padding-left: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+.nav1  .price {
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    color: #B00504;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.nav1 .name{
+    font-size:2px ;
+}
+.nav6 {
+    width: 160px;
+    height: 195px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin: 25px 30px;
+}
+
+.nav6 .img {
+    width: 160px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.nav6 .name {
+    width: 160px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.nav6 .price {
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    color: #999999;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.nav6 .price font {
+    color: #ff4e00;
+    font-size: 14px;
+}
+
+.nav6 .price span {
+    font-size: 16px;
+}
+
+.nav6 .price .checkbox {
+    width: 25px;
+    height: 20px;
+    overflow: hidden;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.nav3 {
+    width: 972px;
+    overflow: hidden;
+    float: left;
+    padding-bottom: 30px;
+}
+.nav11 {
+    overflow: hidden;
+    color: #888888;
+    padding: 20px 10px;
+    text-align: right;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.nav11 span{
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    overflow: hidden;
+}
+.nav11 a {
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 12px;
+    margin: 0 4px;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.nav11 a:hover, .nav11 a.href2 {
+    color: #FFF;
+    background-color: #ff4e00;
+    border: 1px solid #ff4e00;
+}
+
+.nav11 a.href1:hover {
+    background-color: #eaeaea;
+    color: #555555;
+    border: 1px solid #cccccc;
+}
+.nav4 {
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 1px solid #eaeaea;
+}
+.nav5 {
+    height: 28px;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+}
+.nav5 ul {
+    width: 100%;
+    height: 29px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.nav5 ul li {
+    width: 110px;
+    height: 29px;
+    line-height: 27px;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+}
+.nav5 ul li.current {
+    width: 109px;
+    height: 27px;
+    overflow: hidden;
+    background-color: #FFF;
+    border-right: 1px solid #FFF;
+    border-top: 2px solid #ff4e00;
+}
+.nav10 {
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    background-color: #f6f6f6;
+    color: #ff4e00;
+    font-size: 14px;
+    text-indent: 25px;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 2px solid #ff4e00;
+}
+.nav7 {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin: 90px 0;
+}
+.nav8 {
+    width: 145px;
+    height: 125px;
+    overflow: hidden;
+    color: #ff4e00;
+    float: left;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.nav8 span {
+    font-size: 18px;
+}
+.input1 {
+    width: 58px;
+    height: 23px;
+    line-height: 23px;
+    background: none;
+    color: #555555;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 5px auto 10px auto;
+    border: 1px solid #eaeaea;
+}
+.nav9 {
+    overflow: hidden;
+    margin: 25px;
+}
+table.table {
+    height: 128px;
+    overflow: hidden;
+    margin: 25px 20px 0 20px;
+    border-collapse: collapse;
+    border: 1px solid #eaeaea;
+}
+.td {
+    color: #ff4e00;
+    font-size: 14px;
+    text-align: center;
+}
+.td p {
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    line-height: 36px;
+}
+.td-1 {
+    background: url(../images/s_line.gif) no-repeat left center;
+    padding: 0 30px;
+    line-height: 22px;
+}
+table.table-1 tr td {
+    border-collapse: collapse;
+    border-bottom: 1px solid #eaeaea;
+    padding: 20px;
+    line-height: 22px;
+}
+.foot{
+    position: absolute;
+    top:5700px;
+    left: 100px;
+}

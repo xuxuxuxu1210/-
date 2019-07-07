@@ -1,0 +1,145 @@
+body,html,ul,ol,li,h1,h2,h3,h4,h5,h6,p {
+    padding: 0;
+    margin: 0;
+    font: 12px Arial,Helvetica,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+    color:#999;
+    font-size:14px;
+}
+.href {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+body {
+    background: #fcfcfc;
+}
+#head {
+    padding: 16px;
+    background: #FFF;
+    border-bottom: 1px solid #e1e1e1;
+    box-shadow: 0px 0px 10px #ccc;
+}
+.nav{
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+}
+#head img {
+    display: block;
+    height: 55px;
+    width: auto;
+}
+.nav-1 span,.nav-1 a {
+    line-height: 18px;
+    font-family: "SimSun";
+    font-size: 12px;
+    color: #999;
+    vertical-align: middle;
+}
+.nav-1 span a {
+    color: #06c;
+}
+.nav-1 span a:hover {
+    color: #f60;
+}
+.nav-1>a {
+    margin-left: 25px;
+    color: #E60012;
+}
+.nav-1>a {
+    margin-left: 25px;
+    color: #333;
+}
+
+.use,.use-1 {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: 0 4px;
+}
+.use {
+    background: url(../images/runbun.png) no-repeat;
+    background-size: 100% 100%;
+}
+.use-1 {
+    background: url(../images/turnb.png) no-repeat;
+    background-size: 100% 100%;
+}
+.href-1 {
+    color: #333;
+    font-size: 12px;
+}
+.href-1:hover {
+    color: #E60012;
+}
+.nav-2 {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    width: 98px;
+    padding-top: 25px;
+    border: 1px solid #CCC;
+}
+.table{
+    background: #fff;
+}
+.table li a {
+    height: 24px;
+    display: block;
+    padding-left: 25px;
+    border-top: 1px dotted #e4e4e4;
+    background: #FFF;
+    line-height: 24px;
+    color: #333;
+}
+.table li a:hover {
+    color: #E60012;
+}
+.button {
+    width: 330px;
+    height: 52px;
+    border: 0 none;
+    border-radius: 3px;
+    background: #ff3c3c;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #ff7373;
+    font-family: "Microsoft YaHei";
+    line-height: 52px;
+}
+#foot {
+    width: 980px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+#foot p {
+    margin-top: 10px;
+    color: #333;
+}
+#foot p a {
+    padding: 0 6px;
+    color: #333;
+}
+#foot p a:hover {
+    color: #c00;
+}

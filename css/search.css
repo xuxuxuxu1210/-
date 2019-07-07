@@ -1,0 +1,326 @@
+.div1{
+    width:95%;
+    margin: 0 auto;
+    overflow:hidden;
+}
+.div2 {
+    width: 95%;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.div2 i{
+    color: red;
+    font-weight: normal;
+}
+.sp1{
+    height: 23px;
+    line-height: 23px;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 7px;
+    padding: 0 10px;
+    border: 1px dashed #ff4e00;
+}
+ .table1 {
+    border-collapse: collapse;
+    border: 2px solid #cccccc;
+    width:95%;
+    margin:0 auto;
+}
+.table1 tr{
+    vertical-align: top;
+}
+.table1 tr td {
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.table1 tr td.td1 {
+    color: #888888;
+}
+
+.table1 tr td.td1 a {
+    display: inline-block;
+    margin: 0 11px;
+    color: #888888;
+}
+
+.table1 tr td.td1 a:hover, .table1 tr td.td1 a .href1 {
+    color: #ff4e00;
+}
+.td1 a {
+    margin-right: 25px;
+}
+.href1 {
+    color: #ff4e00;
+}
+.content{
+    margin-top: 20px;
+}
+.div3 {
+    width: 209px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #eaeaea;
+}
+.div4 {
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    background: url(../images/h_t.gif) no-repeat 10px center;
+    color: #ff4e00;
+    font-size: 16px;
+    padding-left: 22px;
+    padding-right: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+.div4 a {
+    color: #888888;
+    font-size: 14px;
+}
+.div3 ul li {
+    height: 240px;
+    overflow: hidden;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.div3 ul li .img {
+    width: 185px;
+    height: 162px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.div3 ul li .name {
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.div3 ul li .price {
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    color: #999999;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.div3 ul li .price {
+    color: #B00504;
+    font-size: 18px;
+}
+.div5 {
+    width: 972px;
+    overflow: hidden;
+    float: left;
+    padding-bottom: 30px;
+}
+.div6 {
+    height: 39px;
+    line-height: 39px;
+    overflow: hidden;
+    border-bottom: 1px solid #eaeaea;
+}
+.sp2 a {
+    width: 68px;
+    height: 23px;
+    line-height: 23px;
+    overflow: hidden;
+    color: #555555;
+    text-indent: 12px;
+    float: left;
+    display: inline;
+    margin-right: -1px;
+    margin-top: 6px;
+    border: 1px solid #cccccc;
+}
+
+.sp2 a:hover, .sp2 a.now {
+    color: #FFF;
+    background-color: #ff4e00;
+}
+.href2{
+    color: #FFF;
+    background-color: #ff4e00;
+}
+.sp2 .sp3 {
+    width: 15px;
+    height: 8px;
+    line-height: 8px;
+    overflow: hidden;
+    background: url(../images/i_up.gif) no-repeat center top;
+    text-indent: -9999em;
+    float: right;
+    margin-top: 6px;
+    margin-right: 8px;
+}
+
+.sp2 .sp4 {
+    width: 15px;
+    height: 8px;
+    line-height: 8px;
+    overflow: hidden;
+    background: url(../images/i_down.gif) no-repeat center top;
+    text-indent: -9999em;
+    float: right;
+    margin-top: 0px;
+    margin-right: 8px;
+}
+.div7 {
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.div7 ul {
+    overflow: hidden;
+}
+ul.div8 {
+    padding: 5px 0;
+}
+ul.div8 li {
+    width: 232px;
+    height: 316px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin: 0 5px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+ul.div8 li:hover {
+    background-color: #FFF;
+    -webkit-box-shadow: 0 0 5px #e0e0e0;
+    -moz-box-shadow: 0 0 5px #e0e0e0;
+    box-shadow: 0 0 5px #e0e0e0;
+}
+
+ul.div8 li .img {
+    background-origin: border-box;
+    background-clip: border-box;
+    width: 210px;
+    height: 185px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+ul.div8 li .price {
+    width: 208px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #ff4e00;
+    font-size: 14px;
+}
+
+ul.div8 li .price span {
+    font-size: 18px;
+}
+
+ul.div8 li .name {
+    width: 208px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+ul.div8 li .div9 {
+    width: 209px;
+    height: 30px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+ul.div8 li .div9 a.sp5 {
+    width: 68px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    background: url(../images/heart.png) no-repeat 10px center;
+    color: #888888;
+    text-indent: 33px;
+    float: left;
+    display: inline;
+    margin-right: -1px;
+    border: 1px solid #cccccc;
+}
+
+ul.div8 li .div9 a.sp5:hover {
+    color: #888888;
+    background: url(../images/heart_h.png) no-repeat 10px center;
+}
+ul.div8 li .div9 a.sp6 {
+    width: 138px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    background: url(../images/cars.png) no-repeat 24px center;
+    color: #ff4e00;
+    text-indent: 47px;
+    float: left;
+    display: inline;
+    margin-right: -1px;
+    border: 1px solid #cccccc;
+}
+
+ul.div8 li .div9 a.sp6:hover {
+    color: #FFF;
+    background:#ff4e00 url(../images/cars_h.png) no-repeat 24px center;
+    border: 1px solid #ff4e00;
+}
+
+ul.div8 li:hover .div9 a.sp6 {
+    color: #FFF;
+    background:#ff4e00 url(../images/cars_h.png) no-repeat 24px center;
+    border: 1px solid #ff4e00;
+}
+.div10 {
+    overflow: hidden;
+    float: right;
+    color: #888888;
+    padding: 20px 10px;
+    text-align: right;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.div10 span{
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    overflow: hidden;
+}
+.div10 a {
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 12px;
+    margin: 0 4px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+.div10 a:hover, .div10 a.href2 {
+    color: #FFF;
+    background-color: #ff4e00;
+    border: 1px solid #ff4e00;
+}
+
+.div10 a.href1:hover {
+    background-color: #eaeaea;
+    color: #555555;
+    border: 1px solid #cccccc;
+}
+
